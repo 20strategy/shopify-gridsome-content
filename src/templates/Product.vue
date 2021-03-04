@@ -32,9 +32,7 @@
             class="subtitle">
             {{ currentVariant.price.amount }}
           </h5>
-          <div
-            class="content"
-            v-html="product.descriptionHtml" />
+        
           <div
             v-for="option in productOptions"
             :key="option.id"
@@ -88,6 +86,9 @@
         </div>
       </div>
     </div>
+      <div
+            class="product-content"
+            v-html="product.descriptionHtml" />
   </Layout>
 </template>
 
@@ -198,5 +199,11 @@ query Product ($id: ID!) {
 .add-to-cart {
   display: flex;
   align-items: flex-end;
+}
+.product-content {
+  max-width: 800px;
+  width: 98%;
+  margin-left:auto;
+  margin-right:auto;
 }
 </style>

@@ -69,7 +69,7 @@
             <!--  <div
                 class="content"
                 v-html="product.descriptionHtml" />  -->
-              <div class="field is-grouped is-grouped-right">
+              <div class="field is-grouped is-grouped-center">
                 <div class="control">
                   <g-link
                     :to="product.path"
