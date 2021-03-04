@@ -107,14 +107,6 @@ module.exports = {
       }
     },
 
-    {
-      use: 'gridsome-plugin-service-worker',
-      options: {
-        staleWhileRevalidate: {
-          cacheName: 'static-resources',
-          routes: [/\.(?:css)$/]
-        }
-      }
-    }
+
   ]
 }
