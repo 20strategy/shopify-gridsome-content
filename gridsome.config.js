@@ -106,17 +106,7 @@ module.exports = {
         id: process.env.GRIDSOME_ANALYTICS_ID
       }
     },
-    {
-      use: 'gridsome-plugin-manifest',
-      options: {
-        background_color: '#000000',
-        icon_path: './src/favicon.png',
-        name: 'Gridsome + Shopify 😍',
-        short_name: 'Shopify Starter + 🔐',
-        theme_color: '#000000',
-        lang: 'en'
-      }
-    },
+
     {
       use: 'gridsome-plugin-service-worker',
       options: {
