@@ -6,10 +6,10 @@
       <slot />
     </section>
 
-  <footer  class="is-flex is-flex-wrap-wrap is-justify-content-space-around">
+  <footer class="footer" >
   
-        <div class="navbar-item">
-          <div>Copyright 2021. All rights reserved. DOGTIC.COM</g-link></div>
+        <div>
+          <p>Copyright 2021. All rights reserved. DOGTIC.COM</p>
         </div>
         
         <div class="is-flex is-flex-wrap-nowrap is-align-content-flex-end	">
@@ -60,3 +60,14 @@ export default {
   components: { Navbar }
 }
 </script>
+
+<style>
+.footer {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  height: 110px;
+  max-width: 100%;
+}
+</style>
