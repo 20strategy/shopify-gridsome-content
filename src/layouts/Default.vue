@@ -5,13 +5,15 @@
     <section class="section">
       <slot />
     </section>
-
-<footer class="footer container">
+<section class="bottom">
+<br>
+<div class="bottom-container">
   <div><b>MENU</b></div>
   <div><g-link to="/Return/">Return Policy</g-link></div>
   <div><g-link to="/Shipping/">Shipping Policy</g-link></div>
   <div><a href="/about/#contact-form">Contact US</a></div>
-</footer>
+  <br>
+</div>
 
 
 
@@ -23,7 +25,7 @@
   <div class="homefooter" >
   
         <div>
-          <p style="font-size:12px;">Copyright 2021. All rights reserved. DOGTIC.COM</p>
+          <p style="font-size:12px;">&nbsp;		Copyright 2021. All rights reserved. DOGTIC.COM</p>
         </div>
         
         <div class="is-flex is-flex-wrap-nowrap is-align-content-flex-end	">
@@ -62,7 +64,8 @@
        
 
     </div>
-    </div>
+    </section> </div>
+    
 
 </template>
 
@@ -82,8 +85,17 @@ export default {
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  height: 50px;
+
   margin-left: 20px;
   margin-right:20px;
+}
+.bottom-container {
+  max-width: 1050px;
+  margin-left:auto;
+  margin-right:auto;
+  width:75%;
+}
+.bottom {
+  background: rgb(197, 194, 194);
 }
 </style>

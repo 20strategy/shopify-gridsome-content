@@ -1,9 +1,6 @@
 <template>
   <Layout>
-    <div
-      v-if="collection"
-      class="hero is-large">
-      <div class="container">
+    <div class="container is-max-widescreen">    
         <div class="columns">
           <div class="column is-two-fifths header">
             <div class="header-content">
@@ -28,12 +25,12 @@
                 :alt="collection.image.altText || collection.title" />
             </figure>
           </div>
-        </div>
+        
       </div>
     </div>
     <br>
     <br>
-    <div class="container has-text-centered">
+    <div class="container is-max-widescreen has-text-centered">
       <hr>
       <h3 class="title is-size-4 is-family-secondary">
         Featured Products
@@ -65,10 +62,6 @@
                   </p>
                 </div>
               </div>
-
-            <!--  <div
-                class="content"
-                v-html="product.descriptionHtml" />  -->
               <div class="field is-centered">
                 <div class="">
                   <g-link
@@ -81,12 +74,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>  
      <Subscribe/>
     </div>
     
   </Layout>
-</template>
+</template> 
 
 <script>
 
@@ -147,7 +140,7 @@ query ShopifyProducts {
 }
 </page-query>
 
-<style  scoped>
+<style  lang="scss"scoped>
 .header {
   align-items: center;
   display: flex;}

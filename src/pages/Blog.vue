@@ -1,7 +1,7 @@
 
 <template>
 <Layout>
- <div class="grid">
+ <div class="grid container is-max-desktop">
       <div class ="projects">
         <div class="project" v-for="edge in $page.blogs.edges" :key="edge.node.id">
             <g-link :to="edge.node.path" class="project-link">

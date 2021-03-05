@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="container">
+    <div class="container is-max-desktop">
       <div class="columns">
         <div class="column is-three-fifths">
-          <figure class="image">
+          <figure class="image image is-4by5">
             <v-lazy-image
               :src="product.images[0].src"
               :src-placeholder="product.images[0].placeholder"
@@ -15,7 +15,7 @@
               v-for="({ node: image }) in product.images.edges"
               :key="image.id"
               class="column is-3">
-              <figure class="image is-square">
+              <figure class="image is-4by5">
                 <v-lazy-image
                   :src="image.thumbnail"
                   :alt="image.altText || product.title" />
@@ -156,7 +156,7 @@ query Product ($id: ID!) {
     images(limit: 4) {
       id
       altText
-      src: transformedSrc(maxWidth: 600, maxHeight: 400, crop: CENTER)
+      src: transformedSrc(maxWidth: 800, maxHeight: 1000, crop: CENTER)
       placeholder: transformedSrc(maxWidth: 150, maxHeight: 100, crop: CENTER)
       thumbnail: transformedSrc(maxWidth: 150, maxHeight: 150, crop: CENTER)
     }

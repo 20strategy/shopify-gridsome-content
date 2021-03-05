@@ -7,11 +7,7 @@
       <g-link
         to="/"
         class="navbar-item">
-        <g-image
-          src="../logo.png"
-          width="200"
-          height="27"
-          alt="Dogtic Logo" />
+       <span style="color:blue;letter-spacing:4px;font-size:23px;font-weight:bold">DOGTIC</span>
       </g-link>
 
       <button

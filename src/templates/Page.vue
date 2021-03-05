@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="container has-text-centered">
+    <div class="container is-max-desktop has-text-centered">
       <h1 class="title">
         {{ page.title }}
       </h1>
