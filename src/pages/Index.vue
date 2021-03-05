@@ -82,12 +82,20 @@
           </div>
         </div>
       </div>
+     <Subscribe/>
     </div>
+    
   </Layout>
 </template>
 
 <script>
+
+
+import Subscribe from "@/components/Subscribe"
 export default {
+  components:{
+    Subscribe,
+  },
   metaInfo: {
     title: 'Dogtic.com'
   },
