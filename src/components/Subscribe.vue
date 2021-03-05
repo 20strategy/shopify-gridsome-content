@@ -1,6 +1,7 @@
 <template>
   <div class="subscribe">
-    <form accept-charset="UTF-8" action="https://getform.io/f/7ab187fb-8fc4-47e3-a93d-dde37be50abf" enctype="multipart/form-data" method="POST"  target="_blank">
+   <form action="https://api.form-data.com/f/hcpbhwifqfhflst8m41ig"
+      method="post" >
       <div class="header">
          <p>Sign Up For Newsletter</p>
       </div>
@@ -48,16 +49,16 @@ form {
 
 
 .description-sub {
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1px;
   line-height: 1.5em;
-  margin: -2px 0 45px;
+  margin: -0 0 45px;
 }
 
 
 .input {
   display: flex;
-  align-items: center;
+  align-items: left;
 
 }
 
@@ -74,7 +75,7 @@ form {
   font-family: inherit;
   color: #737373;
   letter-spacing: 1px;
-  text-indent: 5%;
+  text-indent: 1%;
   }
 
 
@@ -99,7 +100,7 @@ form {
 
 input:focus {
   outline: none;
-  outline: 20px solid #E86C8D;
-  box-shadow: 0 0 2px #E86C8D;
+  
+  
 }
 </style>

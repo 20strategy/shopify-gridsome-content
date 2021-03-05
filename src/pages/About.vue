@@ -29,7 +29,8 @@
 <h1 class="has-text-centered is-size-2">Contact Us</h1>
       <div id="contact-form">
         
-            <form accept-charset="UTF-8" action="https://getform.io/f/7ab187fb-8fc4-47e3-a93d-dde37be50abf" enctype="multipart/form-data" method="POST"  target="_blank">
+            <form action="https://api.form-data.com/f/hcpbhwifqfhflst8m41ig"
+      method="post" >
                 <div>
                     <label>Your Name</label>
                     <div>
