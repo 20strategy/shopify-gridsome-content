@@ -15,12 +15,12 @@
               </div>
               <g-link
                 :to="collection.path"
-                class="button">
+                class="button is-primary is-outlined">
                 Shop Now
               </g-link>
             </div>
           </div>
-          <div class="column is-three-fifths">
+          <div class="column is-three-fifth">
             <figure class="image">
               <v-lazy-image
                 :src="collection.image.src"
@@ -46,18 +46,18 @@
           :key="product.id"
           class="column is-4">
           <div class="card">
-            <div class="card-image">
+            <div class="card-image imagehovering">
               <figure class="image is-4by5">
-                <v-lazy-image
+                <g-link :to="product.path"><v-lazy-image
                   :src="product.images[0].src"
                   :src-placeholder="product.images[0].placeholder"
-                  :alt="product.images[0].altText || product.title" />
+                  :alt="product.images[0].altText || product.title" /></g-link>
               </figure>
             </div>
-            <div class="card-content has-text-left">
+            <div class="card-content is-centered">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-5 is-family-secondary">
+                  <p class="title is-6 is-family-secondary is-uppercase">
                     {{ product.title }}
                   </p>
                   <p class="subtitle is-6">
@@ -69,11 +69,11 @@
             <!--  <div
                 class="content"
                 v-html="product.descriptionHtml" />  -->
-              <div class="field is-grouped is-grouped-center">
-                <div class="control">
+              <div class="field is-centered">
+                <div class="">
                   <g-link
                     :to="product.path"
-                    class="button is-primary is-outlined">
+                    class="button is-primary is-outlined ">
                     View Product
                   </g-link>
                 </div>
@@ -89,7 +89,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Come, shop!'
+    title: 'Dogtic.com'
   },
   computed: {
     collection () { return this.$page.allShopifyCollection.edges.length && this.$page.allShopifyCollection.edges[ 0 ].node },
@@ -139,12 +139,16 @@ query ShopifyProducts {
 }
 </page-query>
 
-<style lang="scss" scoped>
+<style  scoped>
 .header {
   align-items: center;
-  display: flex;
-  .header-content {
+  display: flex;}
+.header-content {
     text-align: center;
   }
+.imagehovering:hover {
+  transform: scale(1.02);
+
 }
+
 </style>
