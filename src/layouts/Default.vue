@@ -64,7 +64,7 @@ export default {
 <style>
 .homefooter {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
