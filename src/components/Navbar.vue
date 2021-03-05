@@ -43,7 +43,7 @@
           Blog
         </g-link>
         <g-link
-          to="/about-us"
+          to="/about"
           class="navbar-item">
           About
         </g-link>
