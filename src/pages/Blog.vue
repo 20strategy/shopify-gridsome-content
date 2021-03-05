@@ -9,8 +9,8 @@
                 :alt="edge.node.picture1.title"
                 class="blog-thumbnail"/>
            
-              <h2 class="blog-title">{{ edge.node.title }}</h2>
-                <p class="blog-excerpt">{{edge.node.excerpt}}</p>
+              <h2 class="blog-title has-text-centered">{{ edge.node.title }}</h2>
+                <p class="blog-excerpt has-text-left">{{edge.node.excerpt}}</p>
            
             </g-link>
         </div>
@@ -72,6 +72,7 @@ export default {
 .project {
   grid-column: auto / span 2;
   text-align: center;
+  margin-bottom:35px;
 }
 .project-link {
   text-decoration: none;}
@@ -93,17 +94,21 @@ export default {
 .blog-excerpt {
   font-size: 0.88rem;
   color: #999;
-  margin: 0.5rem 0 0 0;
+  margin-top: 0.5rem;
+  margin-bottom: 20px;
   max-width: 600px;
   width: 85%;
   margin-left:auto;
   margin-right:auto;
 }
 
+p {
+  margin-bottom: 10px;
+}
 
-.project:hover .thumbnail {
+.project:hover {
   transform: scale(1.02);
-  box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25);
+ 
 }
 
 @media (min-width: 520px) {

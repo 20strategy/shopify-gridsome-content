@@ -9,7 +9,7 @@
   <div class="homefooter" >
   
         <div>
-          <p>Copyright 2021. All rights reserved. DOGTIC.COM</p>
+          <p style="font-size:12px;">Copyright 2021. All rights reserved. DOGTIC.COM</p>
         </div>
         
         <div class="is-flex is-flex-wrap-nowrap is-align-content-flex-end	">

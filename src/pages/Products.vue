@@ -88,7 +88,7 @@ query ShopifyProducts {
 
 <style scoped>
 .imagehovering:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 
 }
 </style>

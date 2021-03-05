@@ -13,7 +13,7 @@
           class="column is-4">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-4by5">
                 <v-lazy-image
                   :src="product.images[0].src"
                   :src-placeholder="product.images[0].placeholder"
@@ -23,7 +23,7 @@
             <div class="card-content has-text-left">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4 is-family-secondary">
+                  <p class="title is-5 is-family-secondary is-uppercase">
                     {{ product.title }}
                   </p>
                   <p class="subtitle is-6">
@@ -70,14 +70,14 @@ query Collection ($id: ID!) {
       descriptionHtml
       priceRange {
         minVariantPrice {
-          amount(format: true, currency: "GBP")
+          amount(format: true, currency: "USD")
         }
       }
       images (limit: 1) {
         id
         altText
-        src: transformedSrc (maxWidth: 400, maxHeight: 300, crop: CENTER)
-        placeholder: transformedSrc(maxWidth: 100, maxHeight: 75, crop: CENTER)
+        src: transformedSrc (maxWidth: 400, maxHeight: 500, crop: CENTER)
+        placeholder: transformedSrc(maxWidth: 100, maxHeight: 125, crop: CENTER)
       }
     }
   }

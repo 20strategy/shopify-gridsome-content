@@ -44,9 +44,9 @@
         <div
           v-for="({ node: product }) in featuredProducts"
           :key="product.id"
-          class="column is-4">
-          <div class="card">
-            <div class="card-image imagehovering">
+          class="column is-4 imagehovering">
+          <div class="card ">
+            <div class="card-image ">
               <figure class="image is-4by5">
                 <g-link :to="product.path"><v-lazy-image
                   :src="product.images[0].src"
@@ -147,7 +147,8 @@ query ShopifyProducts {
     text-align: center;
   }
 .imagehovering:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
+  
 
 }
 
