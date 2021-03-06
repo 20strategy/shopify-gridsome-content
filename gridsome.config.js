@@ -51,7 +51,7 @@ module.exports = {
       }
     },
     {
-      use: ' gridsome-plugin-flexsearch',
+      use: 'gridsome-plugin-flexsearch',
       options: {
         flexsearch: {
           profile: 'match'
