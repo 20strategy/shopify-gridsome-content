@@ -76,17 +76,17 @@
                   placeholder="Find a repository">
               </div>
               <div class="add-to-cart">
-                 <button v-if="currentVariant.availableForSale"
+                 <button 
                   class="button is-primary"
                   @click="addToCart"
                   @keyup.enter="addToCart">
                   Add To Cart
                 </button>
-                <button v-else
+                <button 
                   class="button is-danger">
                   Sold Out
                 </button>
-               <p> {{currentVariant}} </p>
+               <p> {{currentVariant.availableForSale}} </p>
               </div>
             </div>
           </div>
@@ -113,6 +113,7 @@ export default {
     quantity: 1
   }),
   computed: {
+   
     product () { return this.$page.shopifyProduct },
     productOptions () { return this.product.options.filter(({ name }) => name !== 'Title') },
     currentVariant () {
@@ -120,7 +121,10 @@ export default {
         variant.selectedOptions.every(({ name, value }) => value === this.selectedOptions[ name ])
       )
       return matchedVariant
-    }
+    },
+    
+  
+   
   },
   watch: {
     $route (to, from) {
@@ -159,6 +163,7 @@ query Product ($id: ID!) {
   shopifyProduct (id: $id) {
     id
     path
+    description
     descriptionHtml
     title
     tags
@@ -192,6 +197,8 @@ query Product ($id: ID!) {
       }
     }
   }
+  
+
 }
 </page-query>
 
