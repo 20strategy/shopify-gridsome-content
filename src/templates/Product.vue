@@ -76,7 +76,7 @@
                   placeholder="Find a repository">
               </div>
               <div class="add-to-cart">
-                 <button v-if="available"
+                 <button v-if="currentVariant.availableForSale"
                   class="button is-primary"
                   @click="addToCart"
                   @keyup.enter="addToCart">
@@ -87,6 +87,7 @@
 >
                   Sold Out
                 </button>
+               <p> hello{{currentVariant.availableForSale}} </p>
               </div>
             </div>
           </div>
@@ -113,7 +114,6 @@ export default {
     quantity: 1
   }),
   computed: {
-    available() {return this.$page.shopifyProduct.variants.availableForSale},
     product () { return this.$page.shopifyProduct },
     productOptions () { return this.product.options.filter(({ name }) => name !== 'Title') },
     currentVariant () {
