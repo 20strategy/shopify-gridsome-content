@@ -92,7 +92,7 @@
             </div>
           </div>
           <br>
-               <p> {{currentVariant}} </p>
+               <p> {{available}} </p>
         </div>
       </div>
     </div>
@@ -118,7 +118,7 @@ export default {
       const something = this.product.variants.find(variant =>
         variant.selectedOptions.every(({ name, value }) => value === this.selectedOptions[ name ])
       )
-      return something
+      return something.availableForSale
     },
     product () { return this.$page.shopifyProduct },
     productOptions () { return this.product.options.filter(({ name }) => name !== 'Title') },
