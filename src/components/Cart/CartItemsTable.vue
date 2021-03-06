@@ -71,6 +71,7 @@
         <td width="150">
           <p class="has-text-right item-total">
             {{ item.total }}
+            {{item.price}}
           </p>
         </td>
       </tr>

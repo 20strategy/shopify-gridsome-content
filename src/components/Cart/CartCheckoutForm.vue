@@ -19,7 +19,7 @@
           <button
             :class="{'is-loading': isLoading}"
             type="submit"
-            class="button is-primary">
+            class="button1">
             Checkout
           </button>
         </div>

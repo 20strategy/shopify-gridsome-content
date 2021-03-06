@@ -91,7 +91,7 @@
             </div>
           </div>
           <br>
-           <div clase="pt-6" v-html="product.description"/>
+        
         </div>
       </div>
     </div>

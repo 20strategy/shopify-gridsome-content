@@ -5,6 +5,14 @@
 	font-size: $size-small !important;
 	height: 40px !important;
 }
+.button1 {
+	font-weight: $weight-semibold;
+	text-transform: uppercase;
+	font-size: $size-small !important;
+	height: 50px !important;
+	background:red;
+	border: 2px;
+}
 
 // Navbar {
 .navbar {
