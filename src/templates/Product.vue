@@ -118,7 +118,11 @@ export default {
       const something = this.product.variants.find(variant =>
         variant.selectedOptions.every(({ name, value }) => value === this.selectedOptions[ name ])
       )
-      return something.availableForSale
+      if (typeof something !== "undefined") {
+        return something.availableForSale
+      } else {
+        return false
+      }
     },
     product () { return this.$page.shopifyProduct },
     productOptions () { return this.product.options.filter(({ name }) => name !== 'Title') },
