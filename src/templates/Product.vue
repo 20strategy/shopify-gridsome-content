@@ -86,16 +86,17 @@
                   class="button is-danger">
                   Sold Out
                 </button>
-               <p> {{currentVariant.availableForSale}} </p>
+                
+        
               </div>
             </div>
           </div>
           <br>
-        
+               <p> {{currentVariant}} </p>
         </div>
       </div>
     </div>
-  
+   
       <div class="product-content mt-6"
             v-html="product.descriptionHtml" />
   </Layout>
@@ -113,7 +114,12 @@ export default {
     quantity: 1
   }),
   computed: {
-   
+    available ()  {
+      const something = this.product.variants.find(variant =>
+        variant.selectedOptions.every(({ name, value }) => value === this.selectedOptions[ name ])
+      )
+      return something
+    },
     product () { return this.$page.shopifyProduct },
     productOptions () { return this.product.options.filter(({ name }) => name !== 'Title') },
     currentVariant () {
