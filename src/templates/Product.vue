@@ -76,13 +76,14 @@
                   placeholder="Find a repository">
               </div>
               <div class="add-to-cart">
-                 <button 
+                 <button v-if="available"
                   class="button is-primary"
                   @click="addToCart"
                   @keyup.enter="addToCart">
                   Add To Cart
                 </button>
                 <button 
+                 v-else
                   class="button is-danger">
                   Sold Out
                 </button>
