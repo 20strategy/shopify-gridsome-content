@@ -87,7 +87,7 @@
 >
                   Sold Out
                 </button>
-               <p> hello{{currentVariant.availableForSale}} </p>
+               <p> {{currentVariant}} </p>
               </div>
             </div>
           </div>
