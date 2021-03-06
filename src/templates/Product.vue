@@ -84,7 +84,7 @@
                 </button>
                 <button v-else
                   class="button is-danger"
-                 >
+>
                   Sold Out
                 </button>
               </div>
@@ -113,6 +113,7 @@ export default {
     quantity: 1
   }),
   computed: {
+    available() {return this.$page.shopifyProduct.variants.availableForSale},
     product () { return this.$page.shopifyProduct },
     productOptions () { return this.product.options.filter(({ name }) => name !== 'Title') },
     currentVariant () {
