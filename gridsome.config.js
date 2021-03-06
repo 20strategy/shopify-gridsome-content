@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'Dogtic.com',
-  siteDescription: 'A full-featured Shopify starter kit for Gridsome, including an account page.',
+  siteDescription: 'A full-featured Shopify starter kit for Gridsome, including an login page',
   siteUrl: 'https://gridsome-starter-shopify-account.vercel.app',
   templates: {
     ShopifyProduct: [
