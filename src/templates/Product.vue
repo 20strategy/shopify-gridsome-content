@@ -57,6 +57,8 @@
               </label>
             </div>
           </div>
+         
+   
           <br>
           <div class="field is-grouped is-grouped-right">
             <div class="field has-addons is-fullwidth">
@@ -83,11 +85,13 @@
               </div>
             </div>
           </div>
+          <br>
+           <div clase="pt-6" v-html="product.description"/>
         </div>
       </div>
     </div>
-      <div
-            class="product-content"
+  
+      <div class="product-content mt-6"
             v-html="product.descriptionHtml" />
   </Layout>
 </template>
@@ -150,6 +154,7 @@ query Product ($id: ID!) {
   shopifyProduct (id: $id) {
     id
     path
+    description
     descriptionHtml
     title
     tags

@@ -3,20 +3,20 @@
     
       <div class="container is-max-desktop">
         <div class="columns">
-             <div class="column is-two-fifth">
+             <div class="column is-haf">
           
               <g-image
                 src="../about-page.jpg"
                 alt="about page picture" />
          
           </div>
-                    <div class="column is-three-fifths header">
+                    <div class="column is-half header">
             <div class="header-content is-family-secondary">
               <h1 class="title is-size-3 ">
                 Let us get connected !
               </h1>
               <div class="content"> 
-                <p>Hi, My name is <b>Andrew Kim</b> and I am the co-founder of DOGTIC.COM. I started this website/blog to provide quality products for dogs and good information for dog-parents</p>
+                <p>Hi, My name is <b>Andrew Kim</b> and I am the co-founder of <b>DOGTIC.COM</b>. I started this website/blog to provide quality products for dogs and good information for dog-parents</p>
                 <p>Although dogs have been with us more than 10,000+ years, we are still learning new things about our furry companions. </p>
                 <p>While we are continuing to relearn about dogs, my first commitment to comsumers is that we will provide good products in quality and looks. Second, we will try our best to bring you good information on dogs, from picking the best breed to potty training your puppy. We will make sure to deliver you with good contents.</p>
               </div>
@@ -26,7 +26,12 @@
          
         </div>
         <div class="conainter contact-form">
-<h1 class="has-text-centered is-size-2">Contact Us</h1>
+          <br><br><h1 class="has-text-centered is-size-2">Contact Us</h1>
+          <p>Email: bark@dogtic.com </p>
+          <p>Tel: 281-620-1200</p>
+          <p>Location: Los Angeles, CA </p>
+          <br>
+<h1 class=" has-text-centered is-size-3">Contact Form</h1>
       <div id="contact-form">
         
             <form action="https://api.form-data.com/f/hcpbhwifqfhflst8m41ig"
