@@ -19,10 +19,10 @@
           </div>
           <div class="column is-three-fifth">
             <figure class="image">
-              <v-lazy-image
-                :src="collection.image.src"
-                :src-placeholder="collection.image.placeholder"
-                :alt="collection.image.altText || collection.title" />
+              <g-image
+                src="../assets/homepage-image.webp"
+          
+                alt="A model is holding a puppy" />
             </figure>
           </div>
         
