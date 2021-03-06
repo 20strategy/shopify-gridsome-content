@@ -70,8 +70,9 @@
         </td>
         <td width="150">
           <p class="has-text-right item-total">
-            {{ item.total }}
-            {{item.price}}
+            ${{ item.total }}
+       
+       
           </p>
         </td>
       </tr>

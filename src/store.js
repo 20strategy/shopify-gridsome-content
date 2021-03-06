@@ -27,7 +27,7 @@ export default function createStore (Vue, { isClient }) {
         else cart.push(newItem)
 
         const updatedCart = cart.map(item => {
-          const total = currency(item.price, { formatWithSymbol: true, symbol: '$' }).multiply(item.qty).format()
+          const total = currency(item.price, { formatWithSymbol: true, symbol: '$' }).multiply(item.qty)
           return { ...item, total }
         })
 
@@ -38,7 +38,7 @@ export default function createStore (Vue, { isClient }) {
         const item = cart.find(item => item.variantId === itemId)
 
         item.qty = qty
-        item.total = currency(item.price, { formatWithSymbol: true, symbol: '$' }).multiply(qty).format()
+        item.total = currency(item.price, { formatWithSymbol: true, symbol: '$' }).multiply(qty)
 
         commit('updateCart', cart)
       },
