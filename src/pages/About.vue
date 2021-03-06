@@ -12,7 +12,7 @@
           </div>
                     <div class="column is-half header">
             <div class="header-content is-family-secondary">
-              <h1 class="title is-size-3 ">
+              <h1 class="title is-size-2 ">
                 Let us get connected !
               </h1>
               <div class="content"> 
