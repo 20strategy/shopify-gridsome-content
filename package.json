@@ -19,7 +19,6 @@
     "gridsome": "^0.7.18",
     "gridsome-plugin-flexsearch": "^1.0.5",
     "gridsome-plugin-guess-js": "^0.1.1",
-    "gridsome-plugin-purgecss": "^1.0.12",
     "gridsome-source-shopify": "^0.2.6",
     "isomorphic-fetch": "^2.2.1",
     "js-cookie": "^2.2.1",

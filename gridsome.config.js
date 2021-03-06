@@ -71,7 +71,7 @@ module.exports = {
         searchFields: ['title', 'handle', 'tags']
       }
     },
-    'gridsome-plugin-purgecss',
+ 
     {
       use: '@gridsome/plugin-critical',
       options: {
