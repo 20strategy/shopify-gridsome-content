@@ -71,7 +71,7 @@
                 <input
                   id="quantity"
                   v-model.number="quantity"
-                  class="input quantity"
+                  class="button input quantity"
                   type="number"
                   placeholder="Find a repository">
               </div>
