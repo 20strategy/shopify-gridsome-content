@@ -76,7 +76,7 @@
                   placeholder="Find a repository">
               </div>
               <div class="add-to-cart">
-                 <button v-if="currentVariant.availableForSale"
+                 <button v-if="available"
                   class="button is-primary"
                   @click="addToCart"
                   @keyup.enter="addToCart">
