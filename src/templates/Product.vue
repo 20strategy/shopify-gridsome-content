@@ -83,8 +83,7 @@
                   Add To Cart
                 </button>
                 <button v-else
-                  class="button is-danger"
->
+                  class="button is-danger">
                   Sold Out
                 </button>
                <p> {{currentVariant}} </p>
@@ -160,7 +159,6 @@ query Product ($id: ID!) {
   shopifyProduct (id: $id) {
     id
     path
-    description
     descriptionHtml
     title
     tags
