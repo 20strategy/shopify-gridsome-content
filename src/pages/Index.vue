@@ -20,7 +20,7 @@
           <div class="column is-three-fifth">
             <figure class="image">
               <g-image
-                src="../assets/homepage-image.webp"
+                src="https://images.ctfassets.net/80g45033v4tf/63IDbt2v0lBynjVg9QTQDh/d554fa5d4df1e71957d77a9369a151c8/homepage-image.webp"
           
                 alt="A model is holding a puppy" />
             </figure>

@@ -93,7 +93,7 @@
             </div>
           </div>
           <br>
-               <p> {{available}} </p>
+         
         </div>
       </div>
     </div>

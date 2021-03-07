@@ -20,8 +20,10 @@
     "gridsome-plugin-flexsearch": "^1.0.5",
     "gridsome-plugin-guess-js": "^0.1.1",
     "gridsome-source-shopify": "^0.2.6",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "js-cookie": "^2.2.1",
+    "node-sass": "^4.14.1",
+    "sharp": "^0.25.4",
     "typeface-karla": "^0.0.72",
     "typeface-prata": "^0.0.72",
     "v-lazy-image": "^1.4.0",
@@ -32,7 +34,6 @@
   },
   "devDependencies": {
     "eslint-config-travisreynolds-vue": "1.1.8",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^9.0.2"
+    "sass-loader": "^9.0.3"
   }
 }

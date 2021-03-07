@@ -21,11 +21,11 @@
         class="container has-text-centered">
         <p>To checkout, add some items to cart.</p>
         <br>
-        <g-link
-          to="/"
+        <a href
+          to="https://dogtic.com"
           class="button is-primary is-outlined">
           Browse
-        </g-link>
+        </a>
       </div>
     </div>
   </Layout>

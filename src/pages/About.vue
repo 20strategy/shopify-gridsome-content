@@ -6,7 +6,7 @@
              <div class="column is-haf">
           
               <g-image
-                src="../about-page.jpg"
+                src="https://images.ctfassets.net/80g45033v4tf/5E6aBn6cXldmhmMqMVA9x/b2b7908bbe923f4fb9a75cdf5803fcbc/about-page.jpg"
                 alt="about page picture" />
          
           </div>

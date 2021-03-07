@@ -27,7 +27,7 @@ export default function createStore (Vue, { isClient }) {
         else cart.push(newItem)
 
         const updatedCart = cart.map(item => {
-          const total = currency(item.price, { formatWithSymbol: true, symbol: '$' }).multiply(item.qty)
+          const total = currency(item.price, { formatWithSymbol: false, symbol: '$' }).multiply(item.qty)
           return { ...item, total }
         })
 
