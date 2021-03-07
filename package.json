@@ -1,5 +1,5 @@
 {
-  "name": "gridsome-starter-shopify-account",
+  "name": "Dogtic.com",
   "private": false,
   "scripts": {
     "build": "gridsome build",
@@ -15,7 +15,7 @@
     "apollo-boost": "^0.4.9",
     "bulma": "^0.9.0",
     "currency.js": "^1.2.2",
-    "graphql-tag": "^2.10.3",
+    "graphql-tag": "^2.11.0",
     "gridsome": "^0.7.18",
     "gridsome-plugin-flexsearch": "^1.0.5",
     "gridsome-plugin-guess-js": "^0.1.1",
