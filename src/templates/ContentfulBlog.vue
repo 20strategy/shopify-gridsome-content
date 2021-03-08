@@ -2,7 +2,7 @@
 <Layout>
    
     <div class="blog-page">
-      <h1 class="title is-5 has-text-centered is-family-secondary">{{$page.post.title}}</h1>
+      <h1>{{$page.post.title}}</h1>
       <g-image class="bannerimage" :src="$page.post.picture1.file.url+`?h=550`"/>
       <div class="blog-text" v-html="richTextToHTML($page.post.description)"></div>
   
@@ -49,7 +49,8 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
+
 .blog-page {
     max-width: 800px;
     width: 99%;
@@ -65,14 +66,42 @@ export default {
     margin-left: auto;
     margin-right: auto;
 }
-.blog-text h2, .blog-text h4 {
+h1, .blog-text h1, .blog-text h2, .blog-text h4 {
     font-size: 30px; 
-      color:Blue;
+      color:rgb(7, 7, 117);
       margin-bottom:10px;
+      text-align:center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blog-text h2, .blog-text h3 {
+    font-size: 26px; 
+      color:rgb(6, 6, 173);
+      margin-bottom:10px;
+      text-align:center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blog-text h4, .blog-text h5 {
+      font-size: 22px; 
+      color:rgb(9, 9, 176);
+      margin-bottom:8px;
+      text-align:center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blog-text ul li p {
+    margin-bottom:0px;
+    text-align: left;
 }
 .blog-text p {
-    margin-bottom:20px;
+    margin-bottom:25px;
     text-align: left;
+}
+.blog-text ul{
+  margin-bottom:20px;
+  list-style-type: square;
+}
+.blog-text li{
+  margin-left:35px;
 }
 
 .blog-text img {
