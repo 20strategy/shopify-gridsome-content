@@ -1,6 +1,8 @@
 # Gridsome + Shopify + Contentful + Bulma CSS
 
-This website is created with the [boilerplate starter](https://github.com/thetre97/gridsome-starter-shopify), which includes customer login and account pages as well as a persisted shopping cart. [View Demo](https://gridsome-starter-shopify-account.vercel.app)
+This website is created with the [boilerplate starter](https://github.com/thetre97/gridsome-starter-shopify), which includes customer login and account pages as well as a persisted shopping cart. [View Actual Page](https://dogtic.com)
+
+
 
 > Give it a go, create an account - take this as written confirmation of the fact that I will _not_ harvest any personal data. Or, of course, you can just use a dummy email and password 🤷🏻‍♂️.
 
