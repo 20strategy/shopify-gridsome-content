@@ -1,11 +1,11 @@
 <template>
-  <div class="container-fluid">
+  <div class="container">
     <notifications />
     <Navbar />
-    <section class="section">
+    <div class="section">
       <slot />
-    </section>
-<section class="bottom">
+    </div>
+<div class="bottom">
 <br>
 <div class="bottom-container">
   <div><b>MENU</b></div>
@@ -64,7 +64,7 @@
        
 
     </div>
-    </section> </div>
+    </div> </div>
     
 
 </template>
@@ -98,4 +98,5 @@ export default {
 .bottom {
   background: rgb(197, 194, 194);
 }
+
 </style>

@@ -1,23 +1,22 @@
 <template>
   <div class="subscribe">
-   <form action="https://api.form-data.com/f/hcpbhwifqfhflst8m41ig"
-      method="post" >
+   <div class="form mt-4 mx-auto"><form action="https://api.form-data.com/f/hcpbhwifqfhflst8m41ig"
+      method="post" class="mt-5 mx-auto">
       <div class="header">
          <p>Sign Up For Newsletter</p>
       </div>
       <div class="description-sub">
         <p>We are bringing new things. Sign up now to receive the exclusive offer.</p>
       </div>
-      <div class="innerbox">
-      <div class="input ">
-        <input type="text" class="button is-primary is-outlined" id="email" name="email" placeholder="email address">
-        <input type="submit" class="button is-primary is-outlined" id="submit" value="SIGN UP">
+      <div class="innerbox is-flex-wrap-wrap">
+      <div class="input">
+        <input type="text" class="button is-primary is-outlined" id="email" name="email" placeholder="email address"> </div>
+      <div>
+        <input type="submit" class="button is-primary is-outlined" id="submit" value="Sign Up">
       </div></div>
     </form>
-  </div>
+  </div></div>
 </template>
-
-
 
 <style scoped >
 * {
@@ -27,24 +26,32 @@
   font-family: Lato, sans-serif;
   color: #FDFCFB;
   text-align: center;
-  height:300px;
+  height:330px;
 }
-
 
 form {
-  width: 430px;
-  margin: 30px auto;
+  max-width: 430px;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
 }
 .innerbox{
-    width:100%;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.input {
+  width:90%;
+ margin-left:auto;
+margin-right:auto;
+margin-bottom: 5px;
 }
 
 
 .header {
-  font-size: 35px;
- 
-  letter-spacing: 3px;
-  padding-top:30px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-top:28px;
 }
 
 
@@ -52,16 +59,8 @@ form {
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 1.5em;
-  margin: -0 0 45px;
+  margin: -0 0 40px;
 }
-
-
-.input {
-  display: flex;
-  align-items: left;
-
-}
-
 
 .button {
   height: 35px;
@@ -70,18 +69,19 @@ form {
 
   
 #email {
-  width: 75%;
+  width: 100%;
   background: #FDFCFB;
   font-family: inherit;
   color: #737373;
-  letter-spacing: 1px;
   text-indent: 1%;
   }
 
 
 #submit {
   width: 15%;
-  height: 46px;
+  height: 100px;
+  margin-left:auto;
+  margin-right: auto;
   background: #E86C8D;
   font-family: inherit;
   font-weight: bold;
