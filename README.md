@@ -1,5 +1,7 @@
 # Gridsome + Shopify + Contentful + Bulma CSS
 
+## [dogtic.com](https://dogtic.com)
+
 This website is created with the [boilerplate starter](https://github.com/thetre97/gridsome-starter-shopify), which includes customer login and account pages as well as a persisted shopping cart. [View Actual Page](https://dogtic.com)
 
 
