@@ -3,14 +3,12 @@
     
       <div class="container is-max-desktop">
         <div class="columns">
-             <div class="column is-haf">
-          
+             <div class="column is-haf">         
               <g-image
                 src="https://images.ctfassets.net/80g45033v4tf/5E6aBn6cXldmhmMqMVA9x/b2b7908bbe923f4fb9a75cdf5803fcbc/about-page.jpg"
-                alt="about page picture" />
-         
+                alt="about page picture" />       
           </div>
-                    <div class="column is-half header">
+            <div class="column is-half header">
             <div class="header-content is-family-secondary">
               <h1 class="title is-size-2 ">
                 Let us get connected !
@@ -22,7 +20,7 @@
               </div>
             
             </div>
-                        </div></div>
+            </div></div>
          
         </div>
         <div class="conainter contact-form">
@@ -77,13 +75,13 @@
 
       </template>
 
-<style scoped>
 
+<style scoped>
 .contact-form {
-display:block;
-max-width:600px;
-width:90%;
-margin-left:auto;
-margin-right:auto;
+  display:block;
+  max-width:600px;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
           }
       </style>
