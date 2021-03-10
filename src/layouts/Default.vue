@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-max-screen">
     <notifications />
     <Navbar />
     <div class="section">
@@ -87,7 +87,7 @@ export default {
   width:100%;
 }
 .section {
-  padding: 2.8rem 0.001rem !important;
+  padding: 2.8rem 0.89rem !important;
 }
 
 </style>
