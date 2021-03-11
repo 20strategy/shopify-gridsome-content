@@ -1,4 +1,4 @@
-<!--<template>
+<template>
 <Layout>
     <div class="container has-text-centered">
       <h1 class="title is-family-secondary">
@@ -61,7 +61,7 @@ export default {
 
 <page-query>
 query ShopifyProducts {
-  allShopifyCollection (limit: 100) {
+  allShopifyCollection (limit: 10) {
     edges {
       node {
         id
