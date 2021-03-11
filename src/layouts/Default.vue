@@ -9,7 +9,7 @@
 <br>
 <div class="bottom-container">
   <div><b>MENU</b></div>
-  <div><g-link to="/Return/">Return Policy</g-link></div>
+  <div><g-link to="/Return/">Return-Policy</g-link></div>
   <div><g-link to="/Shipping/">Shipping Policy</g-link></div>
   <div><a href="/about/#contact-form">Contact US</a></div>
   <br>
