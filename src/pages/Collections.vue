@@ -1,5 +1,5 @@
-<template>
-  <Layout>
+<!--<template>
+<Layout>
     <div class="container has-text-centered">
       <h1 class="title is-family-secondary">
         Collections
