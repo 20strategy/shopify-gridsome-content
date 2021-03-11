@@ -31,7 +31,12 @@
         <g-link
           to="/Products"
           class="navbar-item">
-          Shop
+          Products
+        </g-link>
+         <g-link
+          to="/Collections"
+          class="navbar-item">
+          Collections
         </g-link>
         <g-link
           to="/Blog"

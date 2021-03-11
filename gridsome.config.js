@@ -93,7 +93,10 @@ module.exports = {
             changefreq: 'weekly',
             priority: 0.5
           },
-         
+          '/collections': {
+            changefreq: 'monthly',
+            priority: 0.7
+          }
         }
       }
     },

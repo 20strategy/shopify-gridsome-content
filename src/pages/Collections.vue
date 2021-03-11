@@ -55,7 +55,7 @@
 export default {
   computed: {
     collections () { return this.$page.allShopifyCollection.edges }
-  }
+  },
 }
 </script>
 
