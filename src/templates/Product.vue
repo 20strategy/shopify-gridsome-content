@@ -98,7 +98,7 @@
       </div>
     </div>
    
-      <div class="product-content mt-6"
+      <div class="product-content has-text-centered mt-6"
             v-html="product.descriptionHtml" />
   </Layout>
 </template>
