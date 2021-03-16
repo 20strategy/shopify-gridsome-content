@@ -1,9 +1,9 @@
 <template>
 <Layout>
 <div class="return-page">
-    <h1 class="is-size-3 has-text-centered">Dogtic's Return Policy</h1>
-<p>We have a 14-day return policy.  You have 14 days after receiving your item to request a return.<span> </span><br /><br />To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging.  <br /><br />To start a return, you can contact us at <span> </span><a href="mailto:bark@dogtic.com" target="_blank" rel="noopener noreferrer">bark@dogtic.com</a>.  We will return your request within 24-hours. If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.</p>
-<p>You can always contact us for any return questions at <a href="mailto:bark@dogtic.com" target="_blank" rel="noopener noreferrer"> bark@dogtic.com</a> or use this link: <a href="/about/#contact-form">CONTACT US.</a>
+    <h1 class="is-size-3 has-text-centered">Puppyous' Return Policy</h1>
+<p>We have a 14-day return policy.  You have 14 days after receiving your item to request a return.<span> </span><br /><br />To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging.  <br /><br />To start a return, you can contact us at <span> </span><a href="mailto:bark@puppyous.com" target="_blank" rel="noopener noreferrer">bark@puppyous.com</a>.  We will return your request within 24-hours. If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.</p>
+<p>You can always contact us for any return questions at <a href="mailto:bark@puppyous.com" target="_blank" rel="noopener noreferrer"> bark@puppyous.com</a> or use this link: <a href="/about/#contact-form">CONTACT US.</a>
 </p><br>
 <p><strong>Damages and issues</strong><span> </span><br />Please inspect your order upon reception and contact us immediately if the item is defective, damaged or if you receive the wrong item so that we can evaluate the issue and make it right.</p>
 <br />

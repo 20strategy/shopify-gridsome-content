@@ -1,7 +1,7 @@
 <template>
 <Layout>
 <div class="return-page">
-    <h1 class="is-size-3 has-text-centered">Dogtic's Shipping Policy</h1>
+    <h1 class="is-size-3 has-text-centered">Puppyous' Shipping Policy</h1>
 <p class="has-text-centered"><strong>Shipping In United States</strong></p>
 <br>
 <p><strong>Shipping Cost</strong></p>
@@ -14,8 +14,8 @@
 <li>- We ship from Los Angeles.</li>
 <li>- We usually process orders within 2-3 business days (excluding weekends and holidays). </li>
 <li>- Special Orders are processed within 2-3 days of arrival in stock. </li><br>
-<li>You will receive an email confirmation when the order is successfully placed.  If you have not received an email, please email us at <span> </span><a href="mailto:bark@dogtic.com" title="email link to bark@dogtic.com">bark@dogtic.com</a> or use this link: <a href="https://dogtic.com/about/#contact-form" title="dogtic.com's contact us page">contact us</a>. </li><br>
-<li>If you need assistance with your order, please email us at <span> </span><a href="mailto:bark@dogtic.com" title="email link to bark@dogtic.com">bark@dogtic.com</a>.</li>
+<li>You will receive an email confirmation when the order is successfully placed.  If you have not received an email, please email us at <span> </span><a href="mailto:bark@puppyous.com" title="email link to bark@pupppyous.com">bark@puppyous.com</a> or use this link: <a href="https://puppyous.com/about/#contact-form" title="puppyous.com's contact us page">contact us</a>. </li><br>
+<li>If you need assistance with your order, please email us at <span> </span><a href="mailto:bark@puppyous.com" title="email link to bark@puppyous.com">bark@puppyous.com</a>.</li>
 <li>Please review and ensure that the address you have entered is correct.  We are not responsible for non-delivery due to errors in the address that you provided.  If an order is returned due to an incorrect address, we will refund the original order (excluding the actual shipping fee).</li><br>
 </ul>
 <p><strong>Delivery Method</strong></p>

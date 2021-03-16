@@ -14,7 +14,7 @@
                 Let us get connected !
               </h1>
               <div class="content"> 
-                <p>Hi, My name is <b>Andrew Kim</b> and I am the co-founder of <b>DOGTIC.COM</b>. I started this website/blog to provide quality products for dogs and good information for dog-parents</p>
+                <p>Hi, My name is <b>Andrew Kim</b> and I am the co-founder of <b style="color:blue;">PUPPYOUS.COM</b>. I started this website/blog to provide quality products for dogs and good information for dog-parents</p>
                 <p>Although dogs have been with us more than 10,000+ years, we are still learning new things about our furry companions. </p>
                 <p>While we are continuing to relearn about dogs, my first commitment to comsumers is that we will provide good products in quality and looks. Second, we will try our best to bring you good information on dogs, from picking the best breed to potty training your puppy. We will make sure to deliver you with good contents.</p>
               </div>
@@ -25,7 +25,7 @@
         </div>
         <div class="conainter contact-form">
           <br><br><h1 class="has-text-centered is-size-2">Contact Us</h1>
-          <p>Email: bark@dogtic.com </p>
+          <p>Email: bark@puppyous.com </p>
           <p>Tel: 281-620-1200</p>
           <p>Location: Los Angeles, CA </p>
           <br>

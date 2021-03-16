@@ -1,7 +1,7 @@
 module.exports = {
-  siteName: 'Dogtic.com',
+  siteName: 'puppyous.com',
   siteDescription: 'A full-featured Shopify starter kit for Gridsome, including an login page',
-  siteUrl: 'https://dogtic.com',
+  siteUrl: 'https://puppyous.com',
   templates: {
     ShopifyProduct: [
       {

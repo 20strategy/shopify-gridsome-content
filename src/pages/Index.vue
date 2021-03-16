@@ -90,7 +90,7 @@ export default {
     Subscribe,
   },
   metaInfo: {
-    title: 'Dogtic.com'
+    title: 'puppyous.com'
   },
   computed: {
     collection () { return this.$page.allShopifyCollection.edges.length && this.$page.allShopifyCollection.edges[ 0 ].node },
