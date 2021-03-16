@@ -21,7 +21,7 @@
         class="container has-text-centered">
         <p>To checkout, add some items to cart.</p>
         <br>
-        <a href="https://dogtic.com"
+        <a href="https://puppyous.com"
           class="button is-primary is-outlined">
           Browse
         </a>
