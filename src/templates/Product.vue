@@ -27,6 +27,7 @@
           <h3 class="title is-family-secondary">
             {{ product.title }}
           </h3>
+  <!--  **********************check from here   book mark   -***********-->
           <h5
             v-if="currentVariant"
             class="subtitle">
