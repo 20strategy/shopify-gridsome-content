@@ -7,7 +7,7 @@
       <g-link
         to="/"
         class="navbar-item">
-       <span style="color:blue;letter-spacing:1px;font-size:23px;font-weight:bold">PUPPYOUS</span>
+       <span style="color:blue;letter-spacing:1px;font-size:23px;font-weight:bold">PUPPY<span style="color:red;">OUS</span></span>
       </g-link>
 
       <button
