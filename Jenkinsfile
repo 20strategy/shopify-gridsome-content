@@ -20,7 +20,7 @@ pipeline {
         sh """
         python3 -m awscli s3 cp --quiet s3://puppyous-ci/node_modules.tar .
         tar xf node_modules.tar
-        ls -lh
+        gridsome build
         """
       }
     }
