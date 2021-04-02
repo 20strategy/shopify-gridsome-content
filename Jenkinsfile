@@ -26,7 +26,7 @@ pipeline {
         ]) {
           sh '''
           #!/bin/bash
-          ln -s $HOME/node_modules/ .
+          ln -sf $HOME/node_modules/ .
           export PATH=$HOME/npm-global/bin:$PATH
           export GRIDSOME_SHOPIFY_STOREFRONT=puppyous
           export CONTENTFUL_ENVIRONMENT=master
