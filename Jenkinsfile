@@ -18,8 +18,10 @@ pipeline {
       steps {
         checkoutSrcs()
         sh """
+        #!/bin/bash
         python3 -m awscli s3 cp --quiet s3://puppyous-ci/node_modules.tar .
         tar xf node_modules.tar
+        export PATH=$HOME/npm-global/bin:$PATH
         gridsome build
         """
       }
