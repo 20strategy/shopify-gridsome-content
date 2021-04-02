@@ -16,20 +16,24 @@ pipeline {
     stage('Gridsome Builder: Build') {
       agent { label 'gridsome_builder' }
       steps {
+        checkoutSrcs()
+        sh '''
+        python3 -m awscli s3 cp --quiet s3://puppyous-ci/node_modules.tar .
+        tar xf node_modules.tar
+        '''
         withCredentials([
           string(credentialsId: 'GRIDSOME_SHOPIFY_STOREFRONT_TOKEN', variable: 'GRIDSOME_SHOPIFY_STOREFRONT_TOKEN'),
           string(credentialsId: 'CONTENTFUL_TOKEN', variable: 'CONTENTFUL_TOKEN'),
-          string(credentialsId: 'CONTENTFUL_SPACE', variable: 'CONTENTFUL_SPACE')
+          string(credentialsId: 'CONTENTFUL_SPACE', variable: 'CONTENTFUL_SPACE'),
+          string(credentialsId: 'NETLIFY_AUTH_TOKEN', variable: 'NETLIFY_AUTH_TOKEN')
         ]) {
-          checkoutSrcs()
           sh '''
           #!/bin/bash
-          python3 -m awscli s3 cp --quiet s3://puppyous-ci/node_modules.tar .
-          tar xf node_modules.tar
           export PATH=$HOME/npm-global/bin:$PATH
           export GRIDSOME_SHOPIFY_STOREFRONT=puppyous
           export CONTENTFUL_ENVIRONMENT=master
           gridsome build
+          netlify deploy
           '''
         }
       }
