@@ -16,14 +16,22 @@ pipeline {
     stage('Gridsome Builder: Build') {
       agent { label 'gridsome_builder' }
       steps {
-        checkoutSrcs()
-        sh """
-        #!/bin/bash
-        python3 -m awscli s3 cp --quiet s3://puppyous-ci/node_modules.tar .
-        tar xf node_modules.tar
-        export PATH=$HOME/npm-global/bin:$PATH
-        gridsome build
-        """
+        withCredentials([
+          string(credentialsId: 'GRIDSOME_SHOPIFY_STOREFRONT_TOKEN', variable: 'GRIDSOME_SHOPIFY_STOREFRONT_TOKEN'),
+          string(credentialsId: 'CONTENTFUL_TOKEN', variable: 'CONTENTFUL_TOKEN'),
+          string(credentialsId: 'CONTENTFUL_SPACE', variable: 'CONTENTFUL_SPACE')
+        ]) {
+          checkoutSrcs()
+          sh '''
+          #!/bin/bash
+          python3 -m awscli s3 cp --quiet s3://puppyous-ci/node_modules.tar .
+          tar xf node_modules.tar
+          export PATH=$HOME/npm-global/bin:$PATH
+          export GRIDSOME_SHOPIFY_STOREFRONT=puppyous
+          export CONTENTFUL_ENVIRONMENT=master
+          gridsome build
+          '''
+        }
       }
     }
   }
