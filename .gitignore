@@ -4,7 +4,5 @@
 src/.temp
 node_modules
 dist
-.env*
-.env.*
 static/*
 schema.graphql
