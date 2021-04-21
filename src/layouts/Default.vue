@@ -18,7 +18,7 @@
   <div class="homefooter mx-2" >
   
         <div>
-          <p style="font-size:12px;">&nbsp;		Copyright 2021. All rights reserved. DOGTIC.COM</p>
+          <p style="font-size:12px;">&nbsp;		Copyright 2021. All rights reserved. puppyous.com</p>
         </div>
         
         <div class="is-flex is-flex-wrap-nowrap is-align-content-flex-end	">
